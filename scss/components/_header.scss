@@ -1,0 +1,33 @@
+// Topbar
+.topbar {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            display: inline-block;
+            img {
+                height: 30px;
+            }
+        }
+        span {
+            text-align: right;
+            font-size: 1.5em;
+            font-weight: 700;
+            color: $white-clr;
+
+            // 767px
+            @media (max-width: $break-767) {
+                font-size: 1em;
+                line-height: 1.2;
+            }
+        }
+    }
+}

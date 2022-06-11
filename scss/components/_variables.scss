@@ -1,0 +1,21 @@
+// Base
+$base-fz: 16px !default;
+$primary-ff: "Ubuntu", sans-serif;
+
+// Colors
+$no-clr: transparent;
+$primary-clr: #8fba1c;
+$secondary-clr: #00585c;
+$white-clr: #ffffff;
+$black-clr: #000;
+$text-clr: #666666;
+
+// Media Sizes
+$break-1280: 1280px;
+$break-1080: 1080px;
+$break-991: 991px;
+$break-767: 768px;
+
+/*
+@media (max-width: $break-767) {}
+*/
